@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Main = () => {
   return (
-    <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto mt-12">
+    <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto">
       <div className="bg-white p-4 rounded-md">
         <h1 className="text-2xl font-bold text-center p-2">Portfolio</h1>
         <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 items-center justify-center">
