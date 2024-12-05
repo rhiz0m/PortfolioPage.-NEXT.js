@@ -6,7 +6,7 @@ const Main = () => {
       <div className="bg-white p-4 rounded-md">
         <h1 className="text-2xl font-bold text-center p-2">Portfolio</h1>
         <div className="grid sm:grid-cols-3 grid-cols-1 gap-4 items-center justify-center">
-          <div className="flex justify-center">
+          <div className="flex justify-center max-w-[200px] mx-auto">
             <Image
               className="rounded-full p-2 object-cover"
               aria-hidden
