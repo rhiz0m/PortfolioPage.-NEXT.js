@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Main = () => {
   return (
-    <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto">
+    <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto mt-10">
       <div className="bg-slate-600 rounded-md">
         <div className="grid sm:grid-cols-3 grid-cols-1 items-center justify-center">
           <div className="flex justify-center max-w-[200px] mx-auto">
