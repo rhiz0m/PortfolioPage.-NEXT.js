@@ -9,7 +9,7 @@ const Header = () => {
       <nav className="grid gap-12 sm:grid-cols-4 grid-cols-2 justify-items-stretch">
         <Link
           href="/pages/projects"
-          className="hover:translate-x-2 transition duration-500 ease-in-out hover:underline hover:underline-offset-4 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-slate-800 dark:hover:bg-[#ccc] hover:text-blue-100 text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
+          className="hover:translate-x-2 transition duration-500 ease-in-out hover:underline hover:underline-offset-4 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-slate-800 hover:text-white text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
         >
           <Image
             aria-hidden
@@ -21,7 +21,7 @@ const Header = () => {
           Projects
         </Link>
         <a
-          className="hover:translate-x-2 transition duration-500 ease-in-out hover:underline hover:underline-offset-4 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-slate-800 dark:hover:bg-[#ccc] hover:text-blue-100 text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
+          className="hover:translate-x-2 transition duration-500 ease-in-out hover:underline hover:underline-offset-4 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-slate-800 hover:text-white text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
           href="https://uneedevs.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const Header = () => {
         </a>
         <Link
           href="/pages/about"
-          className="hover:translate-x-2 transition duration-500 ease-in-out hover:underline hover:underline-offset-4 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-slate-800 dark:hover:bg-[#ccc] hover:text-blue-100 text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
+          className="hover:translate-x-2 transition duration-500 ease-in-out hover:underline hover:underline-offset-4 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-slate-800 hover:text-white text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
         >
           <Image
             aria-hidden
@@ -49,7 +49,7 @@ const Header = () => {
           About
         </Link>
         <a
-          className="transition duration-500 ease-in-out hover:scale-105 hover:underline hover:underline-offset-4 rounded-md border border-solid border-transparent flex items-center justify-center bg-orange-400 text-background gap-2 hover:bg-blue-300 dark:hover:bg-[#ccc] hover:text-blue-200 text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5"
+          className="transition duration-500 ease-in-out hover:scale-105 hover:underline hover:underline-offset-4 rounded-md border border-solid border-transparent flex items-center justify-center bg-orange-400 text-background gap-2 hover:bg-blue-300 hover:text-white text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5"
           href="https://www.linkedin.com/in/andreas-antonsson-12209024b/"
           target="_blank"
           rel="noopener noreferrer"
