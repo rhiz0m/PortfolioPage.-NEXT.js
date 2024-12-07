@@ -6,7 +6,7 @@ import Link from "next/link"
 const Header = () => {
   return (
     <header className="bg-black p-2 ml-4 mr-4">
-      <nav className="grid gap-12 sm:grid-cols-6 grid-cols-3 justify-items-stretch">
+      <nav className="grid gap-4 sm:grid-cols-6 grid-cols-2 justify-items-stretch">
         <Link
           href="/pages/projects"
           className="transition duration-500 ease-in-out hover:scale-105 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-slate-800 hover:text-white text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5"
@@ -19,19 +19,6 @@ const Header = () => {
             height={16}
           />
           Projects
-        </Link>
-        <Link
-          className="transition duration-500 ease-in-out hover:scale-105 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-slate-800 hover:text-white text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
-          href="/pages/cv"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="CV icon"
-            width={16}
-            height={16}
-          />
-          CV
         </Link>
         <Link
           href="/pages/about"
@@ -48,21 +35,6 @@ const Header = () => {
         </Link>
         <a
           className="transition duration-500 ease-in-out hover:scale-105 rounded-md border border-solid border-transparent flex items-center justify-center bg-orange-400 text-black gap-2 hover:bg-blue-300 text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5"
-          href="https://uneedevs.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/icons/colab.png"
-            alt="Window icon"
-            width={28}
-            height={28}
-          />
-          UneeDevs
-        </a>
-        <a
-          className="transition duration-500 ease-in-out hover:scale-105 rounded-md border border-solid border-transparent flex items-center justify-center bg-orange-400 text-black gap-2 hover:bg-blue-300 text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5"
           href="https://www.linkedin.com/in/andreas-antonsson-12209024b/"
           target="_blank"
           rel="noopener noreferrer"
@@ -74,7 +46,6 @@ const Header = () => {
             width={28}
             height={28}
           />
-          Linkedin
         </a>
         <a
           className="transition duration-500 ease-in-out hover:scale-105 rounded-md border border-solid border-transparent flex items-center justify-center bg-orange-400 text-black gap-2 hover:bg-blue-300 text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5"
@@ -89,7 +60,6 @@ const Header = () => {
             width={28}
             height={28}
           />
-          Github
         </a>
       </nav>
     </header>
