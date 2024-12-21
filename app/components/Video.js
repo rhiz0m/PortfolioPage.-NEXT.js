@@ -8,7 +8,7 @@ const Video = () => {
         muted
         playsInline
       >
-        <source src="/videos/mtrix.mp4" type="video/mp4" />
+        <source src="/videos/bgData.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>

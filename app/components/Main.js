@@ -1,11 +1,12 @@
 import Image from "next/image"
+import { kanit } from "../fonts/kanit"
 
 const Main = () => {
   return (
     <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto">
-      <div className="bg-slate-800 rounded-md">
+      <div className="bg-gradient-to-r from-black to-slate-500 rounded-md">
         <div className="grid sm:grid-cols-3 grid-cols-1 items-center justify-center">
-          <div className="flex justify-center max-w-[200px] mx-auto">
+          <div className="justify-center max-w-[200px] mx-auto">
             <Image
               className="rounded-full p-2 object-cover"
               aria-hidden
@@ -16,16 +17,18 @@ const Main = () => {
               height={1}
             />
           </div>
-          <div className="sm:col-span-2 bg-white p-3" >
-            <h1 className="text-lg text-center font-semibold">Portfolio</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div className="sm:col-span-2 bg-yellow-50 p-3">
+            <h1 className="text-center font-extrabold text-3xl mb-2">Hi!</h1>
+            <p className={`text-sm text-balance mb-2 ${kanit.className}`}>
+              Welcome to my portfolio. I specialize in Front-End Development and
+              App Development, driven by a passion for crafting intuitive and
+              user-friendly digital experiences. Feel free to explore my
+              projects and learn more about my journey in the About section.
+            </p>
+            <p className="text-sm text-balance mb-2">
+              I would love to hear from you! Whether you&rsquo;re interested in
+              collaborating, exchanging ideas, or simply connecting, don&rsquo;t
+              hesitate to reach out.
             </p>
           </div>
         </div>

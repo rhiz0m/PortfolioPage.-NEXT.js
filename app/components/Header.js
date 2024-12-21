@@ -27,7 +27,7 @@ const external =
 
 const Header = () => {
   return (
-    <header className="bg-black p-2 ml-4 mr-4">
+    <header className="bg-black p-4">
       <nav className="grid gap-4 sm:grid-cols-6 grid-cols-1 justify-items-stretch">
         <div className="col-span-2 flex gap-4">
           <InternalLinks links={internal} />
