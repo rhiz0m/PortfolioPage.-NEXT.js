@@ -18,14 +18,19 @@ const Main = () => {
             />
           </div>
           <div className="sm:col-span-2 bg-yellow-50 p-3">
-            <h1 className="text-center font-extrabold text-3xl mb-2">Hi!</h1>
-            <p className={`text-sm text-balance mb-2 ${kanit.className}`}>
-              Welcome to my portfolio. I specialize in Front-End Development and
-              App Development, driven by a passion for crafting intuitive and
-              user-friendly digital experiences. Feel free to explore my
-              projects and learn more about my journey in the About section.
+            <h1
+              className={`text-center font-extrabold text-2xl mb-2 ${kanit.className}`}
+            >
+              Hi!
+            </h1>
+            <p className="text-sm mb-4">
+              Welcome to my portfolio. My name is Andreas and I specialize in
+              Front-End Development and App Development, driven by a passion for
+              crafting intuitive and user-friendly digital experiences. Feel
+              free to explore my projects and learn more about my journey in the
+              About section.
             </p>
-            <p className="text-sm text-balance mb-2">
+            <p className="text-sm mb-4">
               I would love to hear from you! Whether you&rsquo;re interested in
               collaborating, exchanging ideas, or simply connecting, don&rsquo;t
               hesitate to reach out.
