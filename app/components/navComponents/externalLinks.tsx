@@ -1,26 +1,30 @@
 import { FC } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core"
-import Link from "next/link"
+
 
 interface LinkItem {
   icon: IconDefinition
   url: string
 }
 
-interface ExternalLinksProps {
+interface Props {
   links: LinkItem[]
 }
 
-const ExternalLinks: FC<ExternalLinksProps> = ({ links }) => {
+const ExternalLinks: FC<Props> = ({ links }) => {
   return (
-    <div>
-      {links.map(({ icon, url }, index) => (
-        <Link key={index} href={url}>
-          <FontAwesomeIcon icon={icon} />
-        </Link>
+    <>
+      {links.map((link, index) => (
+        <a
+          key={index}
+          href={link.url}
+          className="flex-grow transition duration-500 ease-in-out hover:scale-105 rounded-md border border-solid border-transparent flex items-center justify-center text-blue-300 bg-foreground text-background gap-2 hover:bg-orange-400 hover:text-black text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
+        >
+          <FontAwesomeIcon icon={link.icon} width={20} height={20} />
+        </a>
       ))}
-    </div>
+    </>
   )
 }
 
