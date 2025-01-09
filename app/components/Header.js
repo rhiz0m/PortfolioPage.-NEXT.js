@@ -10,11 +10,10 @@ const internal = [
   {
     href: "/pages/projects",
     title: "Projects",
-  }
+  },
 ]
 
-const external =
-  [
+const external = [
   {
     icon: faGithub,
     url: "https://github.com",
@@ -22,8 +21,8 @@ const external =
   {
     icon: faLinkedin,
     url: "https://www.linkedin.com",
-  }
-  ]
+  },
+]
 
 const Header = () => {
   return (

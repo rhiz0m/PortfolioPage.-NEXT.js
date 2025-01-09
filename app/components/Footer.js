@@ -11,11 +11,11 @@ const contactInfo = [
 
 const Footer = () => {
   return (
-    <footer className="bg-black rounded-sm p-4 mt-auto mb-0">
+    <footer className="bg-black p-4 mt-auto mb-0">
       <div className="flex flex-col items-center">
         <div className="flex gap-4 justify-center items-center">
           <p
-            className={`text-lg font-semibold text-orange-200 ${kanit.className}`}
+            className={`text-lg font-semibold text-white ${kanit.className}`}
           >
             Contact Me:
           </p>

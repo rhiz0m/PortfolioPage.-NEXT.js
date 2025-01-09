@@ -18,9 +18,9 @@ const ExternalLinks: FC<Props> = ({ links }) => {
         <a
           key={index}
           href={link.url}
-          className="flex-grow transition duration-500 ease-in-out hover:scale-105 rounded-md border border-solid border-transparent flex items-center justify-center text-yellow-100 bg-foreground text-background gap-2 hover:bg-sky-500 hover:text-black text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5 "
+          className="flex-grow transition duration-500 ease-in-out hover:scale-105 rounded-md border border-solid border-transparent flex items-center justify-center text-teal-100 bg-foreground text-background gap-2 hover:bg-teal-200 hover:text-black text-sm sm:text-base h-10 sm:h-9 px-4 sm:px-5"
         >
-          <FontAwesomeIcon icon={link.icon} width={20} height={20} />
+          <FontAwesomeIcon icon={link.icon} width={25} height={25} />
         </a>
       ))}
     </>
