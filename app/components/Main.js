@@ -17,7 +17,7 @@ const Main = () => {
               height={1}
             />
           </div>
-          <div className="sm:col-span-2 bg-white space-y-3 text-sm text-slate-600 text-justify p-6">
+          <div className="sm:col-span-2 bg-white px-12 py-4 space-y-3 text-sm text-slate-600 text-justify">
             <h1
               className={`text-center font-extrabold text-black text-4xl ${kanit.className}`}
             >
