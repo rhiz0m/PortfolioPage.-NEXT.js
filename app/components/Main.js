@@ -4,7 +4,7 @@ import { kanit } from "../fonts/kanit"
 const Main = () => {
   return (
     <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto mb-0">
-      <div className="bg-gradient-to-r from-black to-slate-800 rounded-md">
+      <div className="text-slate-600 bg-gradient-to-r from-slate-200 to-white rounded-xl py-1">
         <div className="grid sm:grid-cols-3 grid-cols-1 items-center justify-center">
           <div className="justify-center max-w-[200px] mx-auto">
             <Image
@@ -16,19 +16,23 @@ const Main = () => {
               width={1}
               height={1}
             />
+            <div className="text-center text-sm space-y-1 pb-2">
+              <p>_____</p>
+              <p>UX/UI | Front-End</p>
+              <p>App-development</p>
+            </div>
           </div>
-          <div className="sm:col-span-2 bg-white px-12 py-4 space-y-3 text-sm text-slate-600 text-justify">
+          <div className="sm:col-span-2 bg-white px-12 py-4 space-y-3 text-sm text-slate-600 text-justify rounded-xl">
             <h1
               className={`text-center font-extrabold text-black text-4xl ${kanit.className}`}
             >
               Hi!
             </h1>
-            <p className="text-slate-800">Welcome to my portfolio page.</p>
+            <p>Welcome to my portfolio page.</p>
             <p>
-              My name is <span className="font-semibold">Andreas</span> and I
-              specialize in UX/UI, Front-End and App Development. Feel free to
-              explore my projects and learn more about my journey in the About
-              section.
+              My name is <span className="font-semibold">Andreas</span> and I am
+              a developer. Feel free to explore my projects and learn more about
+              my journey in the About section.
               <br />
             </p>
             <p>
