@@ -22,12 +22,12 @@ const Footer = () => {
       <div className="flex flex-col items-center">
         <div className="flex gap-4 justify-center items-center">
           <p className={`text-lg font-semibold text-white ${kanit.className}`}>
-            Contact Me:
+            Contact Me
           </p>
           <ExternalLinks links={contactInfo} />
 
           <div className="flex ml-10 justify-center items-center">
-            <p className="text-white text-center">Build with:</p>
+            <p className="text-xs text-white text-center">Technologies Used </p>
             {icons.map((icon, index) => (
               <Image
                 key={index}
