@@ -3,7 +3,7 @@ import { kanit } from "../fonts/kanit"
 
 const Main = () => {
   return (
-    <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto">
+    <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto mb-0">
       <div className="bg-gradient-to-r from-black to-slate-500 rounded-md">
         <div className="grid sm:grid-cols-3 grid-cols-1 items-center justify-center">
           <div className="justify-center max-w-[200px] mx-auto">

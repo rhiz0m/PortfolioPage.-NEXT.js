@@ -11,7 +11,7 @@ const contactInfo = [
 
 const Footer = () => {
   return (
-    <footer className="bg-black rounded-sm p-4 mt-auto">
+    <footer className="bg-black rounded-sm p-4 mt-auto mb-0">
       <div className="flex flex-col items-center">
         <div className="flex gap-4 justify-center items-center">
           <p
