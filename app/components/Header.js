@@ -16,11 +16,11 @@ const internal = [
 const external = [
   {
     icon: faGithub,
-    url: "https://github.com",
+    url: "https://github.com/rhiz0m",
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/andreas-antonsson-12209024b/",
   },
 ]
 
