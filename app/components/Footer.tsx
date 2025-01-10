@@ -20,13 +20,13 @@ const icons = [
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center bg-black p-1 mt-auto">
-      <div className="flex gap-4 my-2 items-center">
+      <div className="flex gap-4 my-2 items-center mx-1">
         <p className={`text-lg font-semibold text-white ${kanit.className}`}>
           Contact Me
         </p>
         <ExternalLinks links={contactInfo} />
       </div>
-      <div className="flex gap-4 col-span-2 items-center my-2">
+      <div className="flex gap-2 col-span-2 items-center my-2">
         <p className="text-xs text-white text-center">Technologies Used </p>
         {icons.map((icon, index) => (
           <Image
