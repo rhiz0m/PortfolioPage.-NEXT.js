@@ -2,7 +2,7 @@ import Card from "./shared/Card"
 
 const Main = () => {
   return (
-    <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto mb-0">
+    <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto">
       <Card
         imageSrc="/images/aa.jpeg"
         imageAlt="profile picture"

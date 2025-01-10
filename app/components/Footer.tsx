@@ -13,13 +13,14 @@ const contactInfo = [
 const icons = [
   { nextjs: "/images/next.png" },
   { tailwind: "/images/tailwind.png" },
+  { typescript: "/images/typescript.png" },
   { vercel: "/images/vercel.png" },
 ]
 
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center bg-black p-1 mt-auto">
-      <div className="flex gap-4 my-2">
+      <div className="flex gap-4 my-2 items-center">
         <p className={`text-lg font-semibold text-white ${kanit.className}`}>
           Contact Me
         </p>
@@ -34,7 +35,7 @@ const Footer = () => {
             aria-hidden
             src={Object.values(icon)[0]}
             alt={Object.keys(icon)[0]}
-            width={45}
+            width={50}
             height={15}
             layout="intrinsic"
           />
