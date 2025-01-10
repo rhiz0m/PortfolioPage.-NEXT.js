@@ -1,11 +1,12 @@
 import Image from "next/image"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import ExternalLinks from "./navComponents/externalLinks"
+import ExternalLinks from "./navComponents/ExternalLinks"
 import { kanit } from "../fonts/kanit"
 
 const contactInfo = [
   {
     icon: faEnvelope,
+    ariaLabel: "email link",
     title: "Email",
     url: "mailto: antonsson.andreas@hotmail.com",
   },
@@ -23,7 +24,7 @@ const Footer = () => {
     <footer className="flex flex-col items-center bg-black p-1 mt-auto">
       <div className="flex gap-4 my-2 items-center mx-1">
         <p className={`text-lg font-semibold text-white ${kanit.className}`}>
-          Contact:
+          Contact Me:
         </p>
         <ExternalLinks links={contactInfo} />
       </div>
