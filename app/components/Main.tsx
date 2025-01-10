@@ -19,8 +19,8 @@ const Main = () => {
               <br />
             </p>
             <p>
-              <span className="italic text-justify">
-                I would love to hear from you!
+              <span className="italic text-justify mr-1">
+                I would love to hear from you! 
               </span>
               Whether you&rsquo;re interested in collaborating, exchanging
               ideas, or simply connecting, don&rsquo;t hesitate to reach out.
