@@ -6,6 +6,7 @@ import { kanit } from "../fonts/kanit"
 const contactInfo = [
   {
     icon: faEnvelope,
+    title: "Email",
     url: "mailto: antonsson.andreas@hotmail.com",
   },
 ]
@@ -22,7 +23,7 @@ const Footer = () => {
     <footer className="flex flex-col items-center bg-black p-1 mt-auto">
       <div className="flex gap-4 my-2 items-center mx-1">
         <p className={`text-lg font-semibold text-white ${kanit.className}`}>
-          Contact Me
+          Contact:
         </p>
         <ExternalLinks links={contactInfo} />
       </div>
