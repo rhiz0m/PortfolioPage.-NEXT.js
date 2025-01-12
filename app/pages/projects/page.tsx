@@ -1,6 +1,7 @@
+import { kanit } from "../../fonts/kanit"
 import HeaderProjects from "./HeaderProjects"
 import Footer from "@/app/components/Footer"
-import { faReact,  } from "@fortawesome/free-brands-svg-icons"
+import { faReact } from "@fortawesome/free-brands-svg-icons"
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons"
 
@@ -15,14 +16,14 @@ const Projects = () => {
     {
       icon: faReact,
       ariaLabel: "React link",
-      href: "front-end-projects",
+      href: "#front-end-projects",
       title: "Front End Apps",
     },
     {
       icon: faMobileScreenButton,
       ariaLabel: "Mobile Apps link",
-      href: "/pages/about",
-      title: "#mobile-projects",
+      href: "#mobile-projects",
+      title: "Mobile Projects",
     },
   ]
 
@@ -30,10 +31,18 @@ const Projects = () => {
     <div className="flex flex-col min-h-screen bg-white">
       <HeaderProjects internalLinks={internal} />
       <div id="front-end-projects">
-        <h1>Front End Projects</h1>
+        <h2
+          className={`text-center font-extrabold text-black text-2xl ${kanit.className}`}
+        >
+          Front End Projects
+        </h2>
       </div>
       <div id="#mobile-projects">
-        <h1>Mobile Projects</h1>
+        <h2
+          className={`text-center font-extrabold text-black text-2xl ${kanit.className}`}
+        >
+          Mobile Projects
+        </h2>
       </div>
       <Footer />
     </div>
