@@ -4,6 +4,7 @@ import Footer from "@/app/components/Footer"
 import { faReact } from "@fortawesome/free-brands-svg-icons"
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons"
+import Card from "../../components/shared/Card"
 
 const Projects = () => {
   const internal = [
@@ -36,6 +37,17 @@ const Projects = () => {
         >
           Front End Projects
         </h2>
+        <Card
+          imageSrc="/images/aa.jpeg"
+          imageAlt="Meta Final Project"
+          title="React Final Project"
+          description="A final project"
+          heading=""
+          content={
+          <>
+          <p>This is a project in the course React Advanced on Coursera</p>
+          </>}
+        />
       </div>
       <div id="#mobile-projects">
         <h2
