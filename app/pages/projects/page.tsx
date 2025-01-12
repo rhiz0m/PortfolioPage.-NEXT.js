@@ -1,7 +1,7 @@
 import HeaderProjects from "./HeaderProjects"
 import Footer from "@/app/components/Footer"
 import { faReact,  } from "@fortawesome/free-brands-svg-icons"
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons/faArrowLeft"
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons"
 
 const Projects = () => {
