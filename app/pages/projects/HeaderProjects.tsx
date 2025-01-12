@@ -1,4 +1,4 @@
-import InternalLinks from "@/app/components/navComponents/EnternalLinks"
+import InternalLinks from "@/app/components/navComponents/InternalLinks"
 import { HeaderProps } from "@/app/components/shared/headerTypes"
 
 const HeaderProjects: React.FC<HeaderProps> = ({ internalLinks = [] }) => {

@@ -1,4 +1,4 @@
-import InternalLinks from "./navComponents/EnternalLinks"
+import InternalLinks from "./navComponents/InternalLinks"
 import ExternalLinks from "./navComponents/ExternalLinks"
 import { HeaderProps } from "./shared/headerTypes"
 

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
-import ExternalLinks from "./navComponents/ExternalLinks"
+import ExternalLinks from "../components/navComponents/ExternalLinks"
 import { kanit } from "../fonts/kanit"
 
 const contactInfo = [
