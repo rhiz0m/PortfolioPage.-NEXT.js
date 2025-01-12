@@ -1,5 +1,5 @@
 import InternalLinks from "./navComponents/InternalLinks"
-import ExternalLinks from "./navComponents/ExternalLinks"
+import ExternalLinks from "../components/navComponents/ExternalLinks"
 import { HeaderProps } from "./shared/headerTypes"
 
 const Header: React.FC<HeaderProps> = ({
