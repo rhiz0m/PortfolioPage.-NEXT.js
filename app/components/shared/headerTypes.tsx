@@ -4,7 +4,7 @@ export interface InternalLink {
   icon: IconDefinition
   ariaLabel: string
   title: string
-  href: string
+  href?: string
 }
 
 export interface ExternalLink {
@@ -15,6 +15,6 @@ export interface ExternalLink {
 }
 
 export interface HeaderProps {
-    internalLinks: InternalLink[]
-    externalLinks: ExternalLink[]
+    internalLinks?: InternalLink[]
+    externalLinks?: ExternalLink[]
 }
