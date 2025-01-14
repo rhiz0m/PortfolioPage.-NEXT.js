@@ -10,6 +10,8 @@ type cardProps = {
   heading: string
   content: React.ReactNode
   className?: string
+  link?: string
+  linkText?: string
 }
 
 const Card: React.FC<cardProps> = ({
@@ -19,6 +21,8 @@ const Card: React.FC<cardProps> = ({
   description,
   heading,
   content,
+  link,
+  linkText = ""
 }) => {
   return (
     <div className="text-slate-600 bg-gradient-to-r from-slate-200 to-white rounded-xl my-14 mx-4">
@@ -46,6 +50,18 @@ const Card: React.FC<cardProps> = ({
             {heading}
           </h1>
           <div className="space-y-3">{content}</div>
+          {link && (
+            <div className="text-center mt-4">
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline font-semibold"
+              >
+                {linkText}
+              </a>
+            </div>
+          )}
         </div>
       </div>
     </div>
