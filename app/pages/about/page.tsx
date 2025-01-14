@@ -1,4 +1,5 @@
 import Header from "@/app/components/shared/Header"
+import Footer from "@/app/components/Footer"
 import {
   faHouse,
   faUserGraduate, 
@@ -45,6 +46,7 @@ const About = () => {
         <h2 id="cv"></h2>
         <h2 id="other"></h2>
       </main>
+    <Footer />
     </div>
   )
 }

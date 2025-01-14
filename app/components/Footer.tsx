@@ -21,14 +21,14 @@ const icons = [
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center bg-black p-1 mt-auto">
-      <div className="flex gap-4 my-2 items-center mx-1">
+    <footer className="flex flex-col items-center bg-black p-1">
+      <div className="flex gap-4 items-center mx-1  my-4">
         <p className={`text-lg font-semibold text-white ${kanit.className}`}>
           Contact Me:
         </p>
         <CombinedLinks links={contactInfo} />
       </div>
-      <div className="flex gap-2 col-span-2 items-center my-2">
+      <div className="flex gap-2 col-span-2 items-center mb-4">
         <p className="text-xs text-white text-center">Technologies Used </p>
         {icons.map((icon, index) => (
           <Image

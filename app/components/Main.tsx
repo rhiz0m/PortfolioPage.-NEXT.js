@@ -6,7 +6,7 @@ const Main = () => {
       <Card
         imageSrc="/images/aa.jpeg"
         imageAlt="profile picture"
-        title="Front End | App | UX/UI "
+        title="Front End | IOS/Android "
         description="Development"
         heading="Hi!"
         content={
@@ -19,9 +19,9 @@ const Main = () => {
               <br />
             </p>
             <p>
-              <span className="italic text-justify mr-1">
-                I would love to hear from you! 
-              </span>
+              <span className="italic text-justify">
+                I would love to hear from you!
+              </span>{" "}
               Whether you&rsquo;re interested in collaborating, exchanging
               ideas, or simply connecting, don&rsquo;t hesitate to reach out.
             </p>
