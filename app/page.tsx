@@ -1,4 +1,4 @@
-import Header from "./components/Header"
+import Header from "./components/shared/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
 import Video from "./components/video/Video"
@@ -6,7 +6,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faCircleInfo, faBriefcase } from "@fortawesome/free-solid-svg-icons"
 
 const Home = () => {
-  const internal = [
+  const links = [
     {
       icon: faCircleInfo,
       ariaLabel: "About link",
@@ -19,9 +19,6 @@ const Home = () => {
       href: "/pages/projects",
       title: "Projects",
     },
-  ]
-
-  const external = [
     {
       icon: faGithub,
       ariaLabel: "Github link",
@@ -39,7 +36,7 @@ const Home = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Video />
-      <Header internalLinks={internal} externalLinks={external} />
+      <Header combinedLinks={links} />
       <Main />
       <Footer />
     </div>

@@ -6,8 +6,6 @@ import { kanit } from "../fonts/kanit"
 const contactInfo = [
   {
     icon: faEnvelope,
-    ariaLabel: "email link",
-    title: "Email",
     url: "mailto: antonsson.andreas@hotmail.com",
   },
 ]
@@ -15,20 +13,19 @@ const contactInfo = [
 const icons = [
   { nextjs: "/images/next.png" },
   { tailwind: "/images/tailwind.png" },
-  { typescript: "/images/typescript.png" },
   { vercel: "/images/vercel.png" },
 ]
 
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center bg-black p-1 mt-auto">
-      <div className="flex gap-4 my-2 items-center mx-1">
+      <div className="flex gap-4 my-2">
         <p className={`text-lg font-semibold text-white ${kanit.className}`}>
-          Contact Me:
+          Contact Me
         </p>
         <CombinedLinks links={contactInfo} />
       </div>
-      <div className="flex gap-2 col-span-2 items-center my-2">
+      <div className="flex gap-4 col-span-2 items-center my-2">
         <p className="text-xs text-white text-center">Technologies Used </p>
         {icons.map((icon, index) => (
           <Image
@@ -37,7 +34,7 @@ const Footer = () => {
             aria-hidden
             src={Object.values(icon)[0]}
             alt={Object.keys(icon)[0]}
-            width={50}
+            width={45}
             height={15}
             layout="intrinsic"
           />
