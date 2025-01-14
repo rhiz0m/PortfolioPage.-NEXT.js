@@ -1,10 +1,13 @@
 import { kanit } from "../../fonts/kanit"
 import Header from "@/app/components/shared/Header"
 import Footer from "@/app/components/Footer"
-import { faReact } from "@fortawesome/free-brands-svg-icons"
-import { faArtstation } from "@fortawesome/free-brands-svg-icons"
-import { faHouse } from "@fortawesome/free-solid-svg-icons"
-import { faMobileScreenButton } from "@fortawesome/free-solid-svg-icons"
+import { 
+  faReact, 
+  faArtstation } from "@fortawesome/free-brands-svg-icons"
+import {
+  faHouse,
+  faMobileScreenButton,
+} from "@fortawesome/free-solid-svg-icons"
 import Card from "../../components/shared/Card"
 
 const Projects = () => {

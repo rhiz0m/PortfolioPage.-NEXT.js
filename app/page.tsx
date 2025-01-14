@@ -2,8 +2,12 @@ import Header from "./components/shared/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
 import Video from "./components/video/Video"
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faCircleInfo, faBriefcase } from "@fortawesome/free-solid-svg-icons"
+import { 
+  faGithub, 
+  faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { 
+  faCircleInfo, 
+  faBriefcase } from "@fortawesome/free-solid-svg-icons"
 
 const Home = () => {
   const links = [
