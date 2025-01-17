@@ -1,9 +1,7 @@
 import { kanit } from "../../fonts/kanit"
 import Header from "@/app/components/shared/Header"
 import Footer from "@/app/components/Footer"
-import { 
-  faReact, 
-  faArtstation } from "@fortawesome/free-brands-svg-icons"
+import { faReact, faArtstation } from "@fortawesome/free-brands-svg-icons"
 import {
   faHouse,
   faMobileScreenButton,
@@ -49,7 +47,7 @@ const Projects = () => {
             Front End Projects
           </h2>
           <Card
-            imageSrc="/images/metaLogo.jpg"
+            imageSrc="/images/reactJs.png"
             imageAlt="Meta Final Project"
             title="Meta - React Advanced"
             description="Final course project"
@@ -61,12 +59,12 @@ const Projects = () => {
                   I completed this front end project as part of Meta’s{" "}
                   <span className="font-semibold">React Advanced </span>
                   course on <span className="font-semibold">Coursera</span>. It
-                  showcases the use of controlled components and form validation
-                  with Formik, along with API integration, context management,
-                  and React hooks such as useRef, useEffect, and useState. The
-                  styling is implemented using Chakra UI for a clean and
-                  responsive design. I am excited to continue developing and
-                  enhancing this project further.
+                  showcases a portfolio-page that use controlled components and
+                  form validation with Formik, along with API integration,
+                  context management, and React hooks such as useRef, useEffect,
+                  and useState. The styling is implemented using Chakra UI for a
+                  clean and responsive design. I am excited to continue
+                  developing and enhancing this project further.
                 </p>
               </>
             }
