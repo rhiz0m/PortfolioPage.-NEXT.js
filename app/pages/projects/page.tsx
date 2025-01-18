@@ -17,16 +17,16 @@ const Projects = () => {
       title: "Home",
     },
     {
-      icon: faReact,
-      ariaLabel: "React link",
-      href: "#front-end-projects",
-      title: "Front End",
-    },
-    {
       icon: faMobileScreenButton,
       ariaLabel: "Mobile Apps link",
       href: "#mobile-projects",
       title: "Mobile",
+    },
+    {
+      icon: faReact,
+      ariaLabel: "React link",
+      href: "#front-end-projects",
+      title: "Front End",
     },
     {
       icon: faArtstation,
@@ -39,7 +39,57 @@ const Projects = () => {
   return (
     <div className="flex flex-col min-h-screen bg-slate-300">
       <Header combinedLinks={links} />
-      <main className="flex-grow flex items-center justify-center max-w-2xl mx-auto overflow-y-auto">
+      <main className="flex-grow flex-col items-center justify-center max-w-2xl mx-auto overflow-y-auto">
+        <div
+          id="#mobile-projects"
+          className="flex flex-col items-center justify-center"
+        >
+          <h2
+            className={`my-4 text-center font-extrabold text-black text-2xl ${kanit.className}`}
+          >
+            Mobile Projects
+          </h2>
+          <video
+            className="h-96 rounded-lg shadow-md"
+            autoPlay
+            loop
+            muted
+            playsInline
+          >
+            <source src="/videos/reader.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <Card
+            imageSrc="/images/apple.jpeg"
+            imageAlt="Apple logo"
+            title="IOS Development"
+            description="Reader App"
+            heading=""
+            className=""
+            content={
+              <>
+                <p>
+                  This <span className="font-semibold">Reader App </span> is an
+                  ongoing project designed to make reading more interactive and
+                  engaging. Users can select a text, press the play button, and
+                  the app will start the reader. The app highlights one word at
+                  a time, allowing the user to focus and immerse themselves in
+                  the content. For an added challenge, users can adjust the
+                  speed at which the words are displayed. Additionally, users
+                  have the option to paste their own text or write new content
+                  directly in the app. The app is currently built using{" "}
+                  <span className="font-semibold">SwiftUI </span>, a poetry-API,
+                  the Combine framework, Coordinator Navigation, and follows
+                  best practices like DAO, Repository, reusable components,
+                  modifiers, and extensions. Authentication is handled through
+                  Firebase. Future updates will incorporate a more robust{" "}
+                  <span className="font-semibold">MVVM architecture</span>,
+                  enhancing scalability and maintainability
+                </p>
+              </>
+            }
+          />
+        </div>
         <div id="front-end-projects">
           <h2
             className={`my-4 text-center font-extrabold text-black text-2xl ${kanit.className}`}
@@ -47,10 +97,10 @@ const Projects = () => {
             Front End Projects
           </h2>
           <Card
-            imageSrc="/images/reactJs.png"
-            imageAlt="Meta Final Project"
-            title="Meta - React Advanced"
-            description="Final course project"
+            imageSrc="/images/reactLogo.png"
+            imageAlt="react logo"
+            title="Front End Development"
+            description="Portfolio Page"
             heading=""
             className=""
             content={
@@ -72,7 +122,6 @@ const Projects = () => {
             linkText="Go to project →"
           />
         </div>
-        <div id="#mobile-projects"></div>
       </main>
       <Footer />
     </div>
